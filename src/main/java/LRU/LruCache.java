@@ -3,7 +3,7 @@ package LRU;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LruCache implements Cache {
+public class LruCache {
 	DoublyLinkList pageList;
 	Map<Integer, Node> pageMap;
 
@@ -13,14 +13,29 @@ public class LruCache implements Cache {
 	}
 
 	public static void main(String args[]) {
-		LruCache lru = new LruCache(2);
+		LruCache lru = new LruCache(1);
 		lru.set(100, 2);
-		lru.set(8, 1);
-		lru.set(100, 1);
-		System.out.println(lru.get(100));
+		lru.set(200, 6);
+		lru.set(300, 1);
+		lru.set(200, 90);
+		lru.set(2, 90);
+		lru.set(3, 90);
+		lru.set(0, 90);
+		lru.set(20, 90);
+		System.out.println(lru.get(200));
+		// print(lru);
 	}
 
-	@Override
+	/**
+	 * @param lru
+	 */
+	private static void print(LruCache lru) {
+		for (Node n = lru.pageList.first; n != null; n = n.next) {
+			System.out.println(n.val.key + " " + n.val.value);
+		}
+		System.out.println();
+	}
+
 	public int get(int x) {
 		Node item = pageMap.get(x);
 		// if value is not null get item and update cache
@@ -33,8 +48,8 @@ public class LruCache implements Cache {
 		}
 	}
 
-	@Override
 	public void set(int x, int y) {
+		System.out.println("Size: " + pageList.curSize);
 		Value value = new Value(x, y);
 		Node item = pageMap.get(x);
 		Node node;
@@ -51,6 +66,17 @@ public class LruCache implements Cache {
 			}
 		}
 		pageMap.put(x, node);
+
+	}
+
+	/**
+	 * 
+	 */
+	private void print() {
+		for (Node n = pageList.first; n != null; n = n.next) {
+			System.out.println(n.val.key + " " + n.val.value);
+		}
+		System.out.println();
 	}
 
 	public class DoublyLinkList {
@@ -70,6 +96,8 @@ public class LruCache implements Cache {
 		}
 
 		public void addFirst(Node newNode) {
+			newNode.prev = null;
+			newNode.next = first;
 			Node temp = first;
 			first = newNode;
 			if (temp != null) {
@@ -104,14 +132,24 @@ public class LruCache implements Cache {
 		public void unlinkFirst() {
 			if (first != null) {
 				first = first.next;
+				if (first != null) {
+					first.prev = null;
+				} else {
+					last = null;
+				}
 				curSize--;
 			}
 		}
 
 		public Node unlinkLast() {
 			Node tmp = last;
-			if (last != null) {
+			if (tmp != null) {
 				last = tmp.prev;
+				if (last != null) {
+					last.next = null;
+				} else {
+					first = null;
+				}
 				curSize--;
 			}
 			return tmp;
