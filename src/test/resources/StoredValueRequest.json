@@ -1,0 +1,626 @@
+{
+	"transactions": [
+		{
+			"transaction_reference": {
+				"transaction_date": "2017-08-16T06:04:27Z",
+				"transaction_id": "868014-783495",
+				"transaction_resource_id": "FCE0EA8C-2313-479B-9B94-04B856507B20",
+				"provider_reference_id": "fce0ea8c-2313-479b-9b94-04b856507b20",
+				"operation_type": "authorize",
+				"client_transaction_reference_id": "816624fb-a63b-4070-a352-8e8e4bff4f55",
+				"client_request_reference_id": "fce0ea8c-2313-479b-9b94-04b856507b20",
+				"header_request_id": "request-id2",
+				"header_transaction_id": "816624FB-A63B-4070-A352-8E8E4BFF4F55",
+				"client_code": "SVX",
+				"reference_id": "783495",
+				"client_id": 16,
+				"message_guid": "2B11D419-AD85-4ED9-8CC7-42580438C3AB",
+				"last_updated_date": "2017-08-16T06:04:27Z"
+			},
+			"transaction_attributes": {
+				"amount": 1,
+				"country": "JUR",
+				"company": "CC",
+				"currency": "XXX",
+				"authorization_code": "2816443",
+				"payment_instrument_method": "Points",
+				"payment_instrument_sub_method": "FictiousPointBank",
+				"provider_code": "Stored Value Service",
+				"status_code": "201",
+				"status": "SUCCESS",
+				"order_currency": "USD",
+				"order_amount": 0.01,
+				"exchange_rate_id": "21f5a9ed-2999-4377-b522-b0fb18b52164",
+				"additional_properties": {},
+				"exchange_rate": 0.00714,
+				"order_id": "-9223372035724378296",
+				"order_operation_correlation_id": "e1016e46-0e92-4372-b509-6d8a8351a5b9",
+				"transaction_type": "DEBIT"
+			},
+			"reward_account_attributes": {
+				"reward_membership_id": "XXXXXX"
+			},
+			"provider_attributes": [
+				{
+					"provider_reference_id": "1234",
+					"provider_transaction_id": "754475",
+					"provider_code": "Stored Value Service",
+					"provider_status_code": "201",
+					"provider_amount": "1",
+					"provider_currency": "EXRP",
+					"provider_status": "SUCCESS",
+					"provider_operation_type": "addTransaction"
+				}
+			]
+		},
+		{
+			"transaction_reference": {
+				"transaction_date": "2017-08-16T06:05:47Z",
+				"transaction_id": "868015-783496",
+				"transaction_resource_id": "8561DB21-04E3-4A88-9F40-F5F2209E62B6",
+				"provider_reference_id": "8561db21-04e3-4a88-9f40-f5f2209e62b6",
+				"operation_type": "authorize",
+				"client_transaction_reference_id": "f6838f7c-fcc0-4db6-9fa7-8a90d1160f61",
+				"client_request_reference_id": "8561db21-04e3-4a88-9f40-f5f2209e62b6",
+				"header_request_id": "8561DB21-04E3-4A88-9F40-F5F2209E62B6",
+				"header_transaction_id": "F6838F7C-FCC0-4DB6-9FA7-8A90D1160F61",
+				"client_code": "SVX",
+				"reference_id": "783496",
+				"client_id": 16,
+				"message_guid": "80994736-943E-4673-8A5B-60EE6CC1CB75",
+				"last_updated_date": "2017-08-16T06:05:47Z"
+			},
+			"transaction_attributes": {
+				"amount": 1,
+				"country": "JUR",
+				"company": "CC",
+				"currency": "XXX",
+				"authorization_code": "2816444",
+				"payment_instrument_method": "Points",
+				"payment_instrument_sub_method": "FictiousPointBank",
+				"provider_code": "Stored Value Service",
+				"status_code": "201",
+				"status": "SUCCESS",
+				"order_currency": "USD",
+				"order_amount": 0.01,
+				"exchange_rate_id": "21f5a9ed-2999-4377-b522-b0fb18b52164",
+				"additional_properties": {},
+				"exchange_rate": 0.00714,
+				"order_id": "-9223372035724378296",
+				"order_operation_correlation_id": "e1016e46-0e92-4372-b509-6d8a8351a5b9",
+				"transaction_type": "DEBIT"
+			},
+			"reward_account_attributes": {
+				"reward_membership_id": "XXXXXX"
+			},
+			"provider_attributes": [
+				{
+					"provider_reference_id": "8561db21-04e3-4a88-9f40-f5f2209e62b6",
+					"provider_transaction_id": "754476",
+					"provider_code": "Stored Value Service",
+					"provider_status_code": "201",
+					"provider_amount": "1",
+					"provider_currency": "EXRP",
+					"provider_status": "SUCCESS",
+					"provider_operation_type": "addTransaction"
+				}
+			]
+		},
+		{
+			"transaction_reference": {
+				"transaction_date": "2017-08-16T06:06:23Z",
+				"transaction_id": "868017-783497",
+				"transaction_resource_id": "BCACB608-D0B7-49DA-8C82-7D8A295F74FA",
+				"provider_reference_id": "bcacb608-d0b7-49da-8c82-7d8a295f74fa",
+				"operation_type": "authorize",
+				"client_transaction_reference_id": "CF1F7725-5037-44A2-82FB-03D4368E7DF1",
+				"client_request_reference_id": "bcacb608-d0b7-49da-8c82-7d8a295f74fa",
+				"header_request_id": "BCACB608-D0B7-49DA-8C82-7D8A295F74FA",
+				"header_transaction_id": "AA37EAE1-8358-4FA5-8E5E-EA0C9958E82E",
+				"client_code": "PAYORCH",
+				"reference_id": "783497",
+				"client_id": 14,
+				"message_guid": "1047616A-3F3F-4912-A1A2-C9CD490BC8F8",
+				"last_updated_date": "2017-08-16T06:06:24Z"
+			},
+			"transaction_attributes": {
+				"amount": 35000,
+				"country": "CAN",
+				"company": "10111",
+				"currency": "XXX",
+				"authorization_code": "319199",
+				"payment_instrument_method": "Points",
+				"payment_instrument_sub_method": "FictiousPointBank",
+				"provider_code": "RBC",
+				"status_code": "201",
+				"status": "SUCCESS",
+				"order_currency": "CAD",
+				"order_amount": 397.98,
+				"exchange_rate_id": "740f1c2d-f9b3-4daf-91b7-80d046239a43",
+				"additional_properties": {
+					"product_sku": "AIR"
+				},
+				"order_id": "-9223372036804832032",
+				"order_operation_correlation_id": "7ed506e9-b7e1-45d5-9bd9-e59bc7a28464"
+			},
+			"reward_account_attributes": {
+				"reward_membership_id": "2202414"
+			},
+			"provider_attributes": [
+				{
+					"provider_reference_id": "bcacb608-d0b7-49da-8c82-7d8a295f74fa",
+					"provider_transaction_id": "754477",
+					"provider_order_number": "-9223372036804832032",
+					"provider_code": "RBC",
+					"provider_status_code": "200",
+					"provider_amount": "35000",
+					"provider_currency": "XXX",
+					"provider_status": "SUCCESS",
+					"provider_operation_type": "Redeem"
+				}
+			]
+		},
+		{
+			"transaction_reference": {
+				"transaction_date": "2017-08-16T06:06:26Z",
+				"transaction_id": "868018-783498",
+				"transaction_resource_id": "2D18F667-BC7B-4EE3-A49D-00430D40E6A1",
+				"provider_reference_id": "2d18f667-bc7b-4ee3-a49d-00430d40e6a1",
+				"operation_type": "capture",
+				"client_transaction_reference_id": "b1bd88ad-1bb9-49c6-b07b-117fcb0e7dfc",
+				"client_request_reference_id": "2d18f667-bc7b-4ee3-a49d-00430d40e6a1",
+				"header_request_id": "2D18F667-BC7B-4EE3-A49D-00430D40E6A1",
+				"header_transaction_id": "B1BD88AD-1BB9-49C6-B07B-117FCB0E7DFC",
+				"client_code": "SVX",
+				"reference_id": "783498",
+				"client_id": 16,
+				"message_guid": "A1C1A9FC-660F-4476-9868-DF4CF7D0DAA1",
+				"last_updated_date": "2017-08-16T06:06:26Z"
+			},
+			"transaction_attributes": {
+				"amount": 1,
+				"country": "JUR",
+				"company": "CC",
+				"currency": "XXX",
+				"authorization_code": "2816444",
+				"payment_instrument_method": "Points",
+				"payment_instrument_sub_method": "FictiousPointBank",
+				"provider_code": "Stored Value Service",
+				"status_code": "201",
+				"status": "SUCCESS",
+				"order_currency": "USD",
+				"order_amount": 0.01,
+				"exchange_rate_id": "21f5a9ed-2999-4377-b522-b0fb18b52164",
+				"additional_properties": {},
+				"exchange_rate": 0.00714,
+				"order_id": "-9223372035724378296",
+				"order_operation_correlation_id": "e1016e46-0e92-4372-b509-6d8a8351a5b9",
+				"transaction_type": "DEBIT"
+			},
+			"reward_account_attributes": {
+				"reward_membership_id": "XXXXXX"
+			},
+			"provider_attributes": [
+				{
+					"provider_reference_id": "2d18f667-bc7b-4ee3-a49d-00430d40e6a1",
+					"provider_transaction_id": "754478",
+					"provider_code": "Stored Value Service",
+					"provider_status_code": "204",
+					"provider_currency": "EXRP",
+					"provider_status": "SUCCESS",
+					"provider_operation_type": "updateTransaction"
+				}
+			]
+		},
+		{
+			"transaction_reference": {
+				"transaction_date": "2017-08-16T06:07:04Z",
+				"transaction_id": "868019-783499",
+				"transaction_resource_id": "952E326B-1CD7-49A9-AE9E-D081962F1FCF",
+				"provider_reference_id": "bcacb608-d0b7-49da-8c82-7d8a295f74fa",
+				"operation_type": "capture",
+				"client_transaction_reference_id": "CF1F7725-5037-44A2-82FB-03D4368E7DF1",
+				"client_request_reference_id": "7e7f1f4f-93ff-4066-acf2-a828a6c511b7",
+				"header_request_id": "7E7F1F4F-93FF-4066-ACF2-A828A6C511B7",
+				"header_transaction_id": "F21842DD-3F04-4469-92AC-2BE59FCFE874",
+				"client_code": "PAYORCH",
+				"reference_id": "783499",
+				"client_id": 14,
+				"message_guid": "5C6CDEE4-8850-447D-A591-39F555235D1D",
+				"last_updated_date": "2017-08-16T06:07:04Z"
+			},
+			"transaction_attributes": {
+				"amount": 35000,
+				"country": "CAN",
+				"company": "10111",
+				"currency": "XXX",
+				"authorization_code": "319199",
+				"payment_instrument_method": "Points",
+				"payment_instrument_sub_method": "FictiousPointBank",
+				"provider_code": "RBC",
+				"status_code": "201",
+				"status": "SUCCESS",
+				"order_currency": "CAD",
+				"order_amount": 397.98,
+				"exchange_rate_id": "740f1c2d-f9b3-4daf-91b7-80d046239a43",
+				"additional_properties": {
+					"product_sku": "AIR"
+				},
+				"order_id": "-9223372036804832032",
+				"order_operation_correlation_id": "7ed506e9-b7e1-45d5-9bd9-e59bc7a28464"
+			},
+			"reward_account_attributes": {
+				"reward_membership_id": "XXXXXXX"
+			},
+			"provider_attributes": []
+		},
+		{
+			"transaction_reference": {
+				"transaction_date": "2017-08-16T06:12:07Z",
+				"transaction_id": "868022-783500",
+				"transaction_resource_id": "9A6102FE-9235-4A4A-BCF3-B4F61BABA083",
+				"provider_reference_id": "9a6102fe-9235-4a4a-bcf3-b4f61baba083",
+				"operation_type": "authorize",
+				"client_transaction_reference_id": "d49a735a-f282-4e8f-bba3-9deae26bc0b1",
+				"client_request_reference_id": "9a6102fe-9235-4a4a-bcf3-b4f61baba083",
+				"header_request_id": "9A6102FE-9235-4A4A-BCF3-B4F61BABA083",
+				"header_transaction_id": "D49A735A-F282-4E8F-BBA3-9DEAE26BC0B1",
+				"client_code": "SVX",
+				"reference_id": "783500",
+				"client_id": 16,
+				"message_guid": "5AFEF344-5A0E-458F-A1E9-65584E8A1D43",
+				"last_updated_date": "2017-08-16T06:12:07Z"
+			},
+			"transaction_attributes": {
+				"amount": 1,
+				"country": "JUR",
+				"company": "CC",
+				"currency": "XXX",
+				"authorization_code": "2816445",
+				"payment_instrument_method": "Points",
+				"payment_instrument_sub_method": "FictiousPointBank",
+				"provider_code": "Stored Value Service",
+				"status_code": "201",
+				"status": "SUCCESS",
+				"order_currency": "USD",
+				"order_amount": 0.01,
+				"exchange_rate_id": "21f5a9ed-2999-4377-b522-b0fb18b52164",
+				"additional_properties": {},
+				"exchange_rate": 0.00714,
+				"order_id": "-9223372035724378296",
+				"order_operation_correlation_id": "e1016e46-0e92-4372-b509-6d8a8351a5b9",
+				"transaction_type": "DEBIT"
+			},
+			"reward_account_attributes": {
+				"reward_membership_id": "XXXXXX"
+			},
+			"provider_attributes": [
+				{
+					"provider_reference_id": "9a6102fe-9235-4a4a-bcf3-b4f61baba083",
+					"provider_transaction_id": "754479",
+					"provider_code": "Stored Value Service",
+					"provider_status_code": "201",
+					"provider_amount": "1",
+					"provider_currency": "EXRP",
+					"provider_status": "SUCCESS",
+					"provider_operation_type": "addTransaction"
+				}
+			]
+		},
+		{
+			"transaction_reference": {
+				"transaction_date": "2017-08-16T06:18:40Z",
+				"transaction_id": "868028-783501",
+				"transaction_resource_id": "C8683D46-B13F-438A-9B9C-1CD42F951EC0",
+				"provider_reference_id": "c8683d46-b13f-438a-9b9c-1cd42f951ec0",
+				"operation_type": "authorize",
+				"client_transaction_reference_id": "aa6fd07d-2ce5-44a5-83cc-4a7d2717eade",
+				"client_request_reference_id": "c8683d46-b13f-438a-9b9c-1cd42f951ec0",
+				"header_request_id": "C8683D46-B13F-438A-9B9C-1CD42F951EC0",
+				"header_transaction_id": "AA6FD07D-2CE5-44A5-83CC-4A7D2717EADE",
+				"client_code": "SVX",
+				"reference_id": "783501",
+				"client_id": 16,
+				"message_guid": "C6CD4662-E845-4A21-96C2-D54CDA86945E",
+				"last_updated_date": "2017-08-16T06:18:40Z"
+			},
+			"transaction_attributes": {
+				"amount": 1,
+				"country": "JUR",
+				"company": "CC",
+				"currency": "XXX",
+				"authorization_code": "2816446",
+				"payment_instrument_method": "Points",
+				"payment_instrument_sub_method": "FictiousPointBank",
+				"provider_code": "Stored Value Service",
+				"status_code": "201",
+				"status": "SUCCESS",
+				"order_currency": "USD",
+				"order_amount": 0.01,
+				"exchange_rate_id": "21f5a9ed-2999-4377-b522-b0fb18b52164",
+				"additional_properties": {},
+				"exchange_rate": 0.00714,
+				"order_id": "-9223372035724378296",
+				"order_operation_correlation_id": "e1016e46-0e92-4372-b509-6d8a8351a5b9",
+				"transaction_type": "DEBIT"
+			},
+			"reward_account_attributes": {
+				"reward_membership_id": "XXXXXX"
+			},
+			"provider_attributes": [
+				{
+					"provider_reference_id": "c8683d46-b13f-438a-9b9c-1cd42f951ec0",
+					"provider_transaction_id": "754480",
+					"provider_code": "Stored Value Service",
+					"provider_status_code": "201",
+					"provider_amount": "1",
+					"provider_currency": "EXRP",
+					"provider_status": "SUCCESS",
+					"provider_operation_type": "addTransaction"
+				}
+			]
+		},
+		{
+			"transaction_reference": {
+				"transaction_date": "2017-08-16T06:27:00Z",
+				"transaction_id": "868033-783502",
+				"transaction_resource_id": "6252D377-6206-42BF-85BB-75A989EED948",
+				"provider_reference_id": "6252d377-6206-42bf-85bb-75a989eed948",
+				"operation_type": "authorize",
+				"client_transaction_reference_id": "145D5092-9591-4101-BD48-5BC846C1CFD1",
+				"client_request_reference_id": "6252d377-6206-42bf-85bb-75a989eed948",
+				"header_request_id": "6252D377-6206-42BF-85BB-75A989EED948",
+				"header_transaction_id": "CEA4BE3F-E784-49E0-8E58-A261E8BE9A13",
+				"client_code": "PAYORCH",
+				"reference_id": "783502",
+				"client_id": 14,
+				"message_guid": "B0D02EF1-750B-4D4F-BCC3-35C6DBC39F02",
+				"last_updated_date": "2017-08-16T06:27:00Z"
+			},
+			"transaction_attributes": {
+				"amount": 5872,
+				"country": "USA",
+				"company": "10111",
+				"currency": "XXX",
+				"authorization_code": "2816447",
+				"payment_instrument_method": "Points",
+				"payment_instrument_sub_method": "FictiousPointBank",
+				"provider_code": "Stored Value Service",
+				"status_code": "201",
+				"status": "SUCCESS",
+				"order_currency": "USD",
+				"order_amount": 41.95,
+				"exchange_rate_id": "bb689e3d-f2c9-4bbc-b27f-54edfc1529d7",
+				"additional_properties": {},
+				"exchange_rate": 0.0071428571,
+				"order_id": "-9223372036804831775",
+				"order_operation_correlation_id": "c78d03a8-75ea-406c-9fc1-a4cd8ccd072f"
+			},
+			"reward_account_attributes": {
+				"reward_membership_id": "XXXXXX"
+			},
+			"provider_attributes": [
+				{
+					"provider_reference_id": "6252d377-6206-42bf-85bb-75a989eed948",
+					"provider_transaction_id": "754481",
+					"provider_code": "Stored Value Service",
+					"provider_status_code": "201",
+					"provider_amount": "5872.00",
+					"provider_currency": "EXRP",
+					"provider_status": "SUCCESS",
+					"provider_operation_type": "addTransaction"
+				}
+			]
+		},
+		{
+			"transaction_reference": {
+				"transaction_date": "2017-08-16T06:27:30Z",
+				"transaction_id": "868034-783503",
+				"transaction_resource_id": "0F11B349-684B-4986-A271-8C7EFCB1CC60",
+				"provider_reference_id": "b2902412-5a30-4a13-bc79-285f448d96e5",
+				"operation_type": "capture",
+				"client_transaction_reference_id": "145D5092-9591-4101-BD48-5BC846C1CFD1",
+				"client_request_reference_id": "b2902412-5a30-4a13-bc79-285f448d96e5",
+				"header_request_id": "B2902412-5A30-4A13-BC79-285F448D96E5",
+				"header_transaction_id": "7EB55F1C-602D-44A4-A747-4AB87A0EA662",
+				"client_code": "PAYORCH",
+				"reference_id": "783503",
+				"client_id": 14,
+				"message_guid": "D2C4E270-451A-476F-B52B-5F2755AF7752",
+				"last_updated_date": "2017-08-16T06:27:30Z"
+			},
+			"transaction_attributes": {
+				"amount": 5872,
+				"country": "USA",
+				"company": "10111",
+				"currency": "XXX",
+				"authorization_code": "2816447",
+				"payment_instrument_method": "Points",
+				"payment_instrument_sub_method": "FictiousPointBank",
+				"provider_code": "Stored Value Service",
+				"status_code": "201",
+				"status": "SUCCESS",
+				"order_currency": "USD",
+				"order_amount": 41.95,
+				"exchange_rate_id": "bb689e3d-f2c9-4bbc-b27f-54edfc1529d7",
+				"additional_properties": {},
+				"exchange_rate": 0.0071428571,
+				"order_id": "-9223372036804831775",
+				"order_operation_correlation_id": "c78d03a8-75ea-406c-9fc1-a4cd8ccd072f"
+			},
+			"reward_account_attributes": {
+				"reward_membership_id": "XXXXXX"
+			},
+			"provider_attributes": [
+				{
+					"provider_reference_id": "b2902412-5a30-4a13-bc79-285f448d96e5",
+					"provider_transaction_id": "754482",
+					"provider_code": "Stored Value Service",
+					"provider_status_code": "204",
+					"provider_currency": "EXRP",
+					"provider_status": "SUCCESS",
+					"provider_operation_type": "updateTransaction"
+				}
+			]
+		},
+		{
+			"transaction_reference": {
+				"transaction_date": "2017-08-16T06:32:38Z",
+				"transaction_id": "868038-783504",
+				"transaction_resource_id": "BE8F6823-40F8-4897-9CE0-C681A22B2F5C",
+				"provider_reference_id": "be8f6823-40f8-4897-9ce0-c681a22b2f5c",
+				"operation_type": "authorize",
+				"client_transaction_reference_id": "d740d301-3d6a-4052-8e6a-a64b4f8c2acd",
+				"client_request_reference_id": "be8f6823-40f8-4897-9ce0-c681a22b2f5c",
+				"header_request_id": "BE8F6823-40F8-4897-9CE0-C681A22B2F5C",
+				"header_transaction_id": "D740D301-3D6A-4052-8E6A-A64B4F8C2ACD",
+				"client_code": "SVX",
+				"reference_id": "783504",
+				"client_id": 16,
+				"message_guid": "4C762545-ED38-45AC-B427-31B058B48F8A",
+				"last_updated_date": "2017-08-16T06:32:38Z"
+			},
+			"transaction_attributes": {
+				"amount": 1,
+				"country": "JUR",
+				"company": "CC",
+				"currency": "XXX",
+				"authorization_code": "2816448",
+				"payment_instrument_method": "Points",
+				"payment_instrument_sub_method": "FictiousPointBank",
+				"provider_code": "Stored Value Service",
+				"status_code": "201",
+				"status": "SUCCESS",
+				"order_currency": "USD",
+				"order_amount": 0.01,
+				"exchange_rate_id": "21f5a9ed-2999-4377-b522-b0fb18b52164",
+				"additional_properties": {},
+				"exchange_rate": 0.00714,
+				"order_id": "-9223372035724378296",
+				"order_operation_correlation_id": "e1016e46-0e92-4372-b509-6d8a8351a5b9",
+				"transaction_type": "DEBIT"
+			},
+			"reward_account_attributes": {
+				"reward_membership_id": "XXXXXX"
+			},
+			"provider_attributes": [
+				{
+					"provider_reference_id": "be8f6823-40f8-4897-9ce0-c681a22b2f5c",
+					"provider_transaction_id": "754483",
+					"provider_code": "Stored Value Service",
+					"provider_status_code": "201",
+					"provider_amount": "1",
+					"provider_currency": "EXRP",
+					"provider_status": "SUCCESS",
+					"provider_operation_type": "addTransaction"
+				}
+			]
+		},
+		{
+			"transaction_reference": {
+				"transaction_date": "2017-08-16T06:37:38Z",
+				"transaction_id": "868043-783505",
+				"transaction_resource_id": "1938DB97-042D-4BB0-B766-05C007996637",
+				"provider_reference_id": "1938db97-042d-4bb0-b766-05c007996637",
+				"operation_type": "authorize",
+				"client_transaction_reference_id": "eef62c71-5a37-460c-ad6f-d1b9f2a0eed3",
+				"client_request_reference_id": "1938db97-042d-4bb0-b766-05c007996637",
+				"header_request_id": "1938DB97-042D-4BB0-B766-05C007996637",
+				"header_transaction_id": "EEF62C71-5A37-460C-AD6F-D1B9F2A0EED3",
+				"client_code": "SVX",
+				"reference_id": "783505",
+				"client_id": 16,
+				"message_guid": "A262FD9E-4BFF-460E-A889-33CE3B851B83",
+				"last_updated_date": "2017-08-16T06:37:38Z"
+			},
+			"transaction_attributes": {
+				"amount": 1,
+				"country": "JUR",
+				"company": "CC",
+				"currency": "XXX",
+				"authorization_code": "2816449",
+				"payment_instrument_method": "Points",
+				"payment_instrument_sub_method": "FictiousPointBank",
+				"provider_code": "Stored Value Service",
+				"status_code": "201",
+				"status": "SUCCESS",
+				"order_currency": "USD",
+				"order_amount": 0.01,
+				"exchange_rate_id": "21f5a9ed-2999-4377-b522-b0fb18b52164",
+				"additional_properties": {},
+				"exchange_rate": 0.00714,
+				"order_id": "-9223372035724378296",
+				"order_operation_correlation_id": "e1016e46-0e92-4372-b509-6d8a8351a5b9",
+				"transaction_type": "DEBIT"
+			},
+			"reward_account_attributes": {
+				"reward_membership_id": "XXXXXX"
+			},
+			"provider_attributes": [
+				{
+					"provider_reference_id": "1938db97-042d-4bb0-b766-05c007996637",
+					"provider_transaction_id": "754484",
+					"provider_code": "Stored Value Service",
+					"provider_status_code": "201",
+					"provider_amount": "1",
+					"provider_currency": "EXRP",
+					"provider_status": "SUCCESS",
+					"provider_operation_type": "addTransaction"
+				}
+			]
+		},
+		{
+			"transaction_reference": {
+				"transaction_date": "2017-08-16T06:42:25Z",
+				"transaction_id": "868046-783506",
+				"transaction_resource_id": "86D13EC9-0889-4283-BCF8-0A22158B7D11",
+				"provider_reference_id": "86d13ec9-0889-4283-bcf8-0a22158b7d11",
+				"operation_type": "authorize",
+				"client_transaction_reference_id": "204d73a1-3a29-41ac-82e5-87f830b9a3e6",
+				"client_request_reference_id": "86d13ec9-0889-4283-bcf8-0a22158b7d11",
+				"header_request_id": "86D13EC9-0889-4283-BCF8-0A22158B7D11",
+				"header_transaction_id": "204D73A1-3A29-41AC-82E5-87F830B9A3E6",
+				"client_code": "SVX",
+				"reference_id": "783506",
+				"client_id": 16,
+				"message_guid": "B9F85828-90BF-4027-B23E-B0FE40FA798E",
+				"last_updated_date": "2017-08-16T06:42:25Z"
+			},
+			"transaction_attributes": {
+				"amount": 1,
+				"country": "JUR",
+				"company": "CC",
+				"currency": "XXX",
+				"authorization_code": "2816450",
+				"payment_instrument_method": "Points",
+				"payment_instrument_sub_method": "FictiousPointBank",
+				"provider_code": "Stored Value Service",
+				"status_code": "201",
+				"status": "SUCCESS",
+				"order_currency": "USD",
+				"order_amount": 0.01,
+				"exchange_rate_id": "21f5a9ed-2999-4377-b522-b0fb18b52164",
+				"additional_properties": {},
+				"exchange_rate": 0.00714,
+				"order_id": "-9223372035724378296",
+				"order_operation_correlation_id": "e1016e46-0e92-4372-b509-6d8a8351a5b9",
+				"transaction_type": "DEBIT"
+			},
+			"reward_account_attributes": {
+				"reward_membership_id": "XXXXXX"
+			},
+			"provider_attributes": [
+				{
+					"provider_reference_id": "86d13ec9-0889-4283-bcf8-0a22158b7d11",
+					"provider_transaction_id": "754485",
+					"provider_code": "Stored Value Service",
+					"provider_status_code": "201",
+					"provider_amount": "1",
+					"provider_currency": "EXRP",
+					"provider_status": "SUCCESS",
+					"provider_operation_type": "addTransaction"
+				}
+			]
+		}
+	]
+}
