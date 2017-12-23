@@ -26,15 +26,7 @@ public class LruCache {
 		// print(lru);
 	}
 
-	/**
-	 * @param lru
-	 */
-	private static void print(LruCache lru) {
-		for (Node n = lru.pageList.first; n != null; n = n.next) {
-			System.out.println(n.val.key + " " + n.val.value);
-		}
-		System.out.println();
-	}
+	
 
 	public int get(int x) {
 		Node item = pageMap.get(x);
@@ -68,17 +60,6 @@ public class LruCache {
 		pageMap.put(x, node);
 
 	}
-
-	/**
-	 * 
-	 */
-	private void print() {
-		for (Node n = pageList.first; n != null; n = n.next) {
-			System.out.println(n.val.key + " " + n.val.value);
-		}
-		System.out.println();
-	}
-
 	public class DoublyLinkList {
 		Node first;
 		Node last;
